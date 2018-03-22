@@ -14,6 +14,7 @@ import (
 // in the generated code itself for the exact method signatures etc
 // to give you a better idea.
 type service struct {
+	session      *mgo.Session
 	vesselClient vesselProto.VesselServiceClient
 }
 
