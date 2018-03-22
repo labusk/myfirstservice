@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 
+	pb "github.com/labusk/myfirstservice/vessel-service/proto/vessel"
 	"github.com/micro/go-micro"
-	pb "microservices-tutorial/myrepo/vessel-service/proto/vessel"
 )
 
 type Repository interface {

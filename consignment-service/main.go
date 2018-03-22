@@ -5,10 +5,10 @@ import (
 	"log"
 
 	// Import the generated protobuf code
+	pb "github.com/labusk/myfirstservice/consignment-service/proto/consignment"
+	vesselProto "github.com/labusk/myfirstservice/vessel-service/proto/vessel"
 	micro "github.com/micro/go-micro"
 	"golang.org/x/net/context"
-	pb "microservices-tutorial/myrepo/consignment-service/proto/consignment"
-	vesselProto "microservices-tutorial/myrepo/vessel-service/proto/vessel"
 )
 
 type Repository interface {

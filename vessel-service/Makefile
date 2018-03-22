@@ -1,6 +1,6 @@
 # vessel-service/Makefile
 build:
-	protoc -I. --go_out=plugins=micro:$(GOPATH)/src/microservices-tutorial/myrepo/vessel-service \
+	protoc -I. --go_out=plugins=micro:$(GOPATH)/src/github.com/labusk/myfirstservice/vessel-service \
     proto/vessel/vessel.proto
 	docker build -t vessel-service .
 

@@ -7,8 +7,8 @@ import (
 	"log"
 	"os"
 
+	pb "github.com/labusk/myfirstservice/consignment-service/proto/consignment"
 	"golang.org/x/net/context"
-	pb "microservices-tutorial/myrepo/consignment-service/proto/consignment"
 
 	microclient "github.com/micro/go-micro/client"
 	"github.com/micro/go-micro/cmd"
