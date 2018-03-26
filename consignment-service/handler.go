@@ -3,9 +3,10 @@
 package main
 
 import (
-	vesselProto "github.com/EwanValentine/shippy/vessel-service/proto/vessel"
 	pb "github.com/labusk/myfirstservice/consignment-service/proto/consignment"
+	vesselProto "github.com/labusk/myfirstservice/vessel-service/proto/vessel"
 	"golang.org/x/net/context"
+	"gopkg.in/mgo.v2"
 	"log"
 )
 

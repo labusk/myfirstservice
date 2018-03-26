@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"log"
 
-	vesselProto "github.com/EwanValentine/shippy/vessel-service/proto/vessel"
 	pb "github.com/labusk/myfirstservice/consignment-service/proto/consignment"
+	vesselProto "github.com/labusk/myfirstservice/vessel-service/proto/vessel"
 	"github.com/micro/go-micro"
 	"os"
 )
